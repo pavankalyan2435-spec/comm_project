@@ -1,4 +1,16 @@
-
 version: 2
 
+sources:
+  - name: COMM_CDW_STAGE
+    schema: COMM_CDW_STAGE
+    description: stage layer source tables 
 
+    tables:
+      - name: sflsc_visit
+        description: salesforce lifescience data for visitors 
+
+      - name: sflsc_user
+        description: salesforce lifescience data for users 
+      - name: sflsc_territory2
+        description: salesforce lifescience data for territories
+         
